@@ -11,7 +11,7 @@ const Projects = () => {
       tech: ['React Native', '.NET', 'SQL', 'DevOps'],
       status: 'Live',
       links: {
-        playstore: '#',
+        playstore: 'https://play.google.com/store/apps/details?id=com.maskanh.app',
         appstore: '#'
       }
     },
@@ -42,7 +42,7 @@ const Projects = () => {
       tech: ['WordPress', 'HTML', 'CSS', 'JavaScript'],
       status: 'Live',
       links: {
-        website: '#'
+        website: 'https://edwingdangelo.com/'
       }
     }
   ]

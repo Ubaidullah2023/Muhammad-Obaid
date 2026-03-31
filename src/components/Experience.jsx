@@ -17,7 +17,7 @@ const Experience = () => {
         'Cross-platform mobile application development'
       ],
       links: [
-        { label: 'Google Play Store', url: '#' },
+        { label: 'Google Play Store', url: 'https://play.google.com/store/apps/details?id=com.maskanh.app' },
         { label: 'App Store', url: '#' }
       ],
       color: '#6366f1'
@@ -30,7 +30,7 @@ const Experience = () => {
       description: 'Developed the Mairaj360 application using React Native and maintained the official web portal.',
       achievements: [
         'Cross-platform efficiency and high-speed performance',
-        'Designed and maintained official web portal at mskanh.com',
+        'Designed and maintained official web portal at maskanh.com',
         'Full responsiveness and integration with mobile services',
         'Optimized backend database interactions for real-time data synchronization'
       ],
@@ -64,6 +64,9 @@ const Experience = () => {
         'Integrated interactive European mapping systems',
         'Advanced HTML/CSS implementation',
         'Responsive web design'
+      ],
+      links: [
+        { label: 'Visit Website', url: 'https://edwingdangelo.com/' }
       ],
       color: '#06b6d4'
     }
