@@ -58,7 +58,7 @@ const Hero = () => {
               <FaEnvelope /> Hire Me Now
             </motion.a>
             <motion.a
-              href="/img/Shape/MUHAMMAD OBAID CV 2026.pdf"
+              href={`${import.meta.env.BASE_URL}img/Shape/MUHAMMAD%20OBAID%20CV%202026.pdf`}
               target="_blank"
               className="btn btn-secondary"
               whileHover={{ scale: 1.05, y: -2 }}
@@ -106,7 +106,14 @@ const Hero = () => {
           transition={{ duration: 0.8, delay: 0.3 }}
         >
           <div className="image-wrapper">
-            <img src="/img/Obaid.png" alt="Muhammad Obaid" />
+            <img
+              src={`${import.meta.env.BASE_URL}img/Obaid.png`}
+              alt="Muhammad Obaid"
+              onError={(e) => {
+                e.currentTarget.onerror = null
+                e.currentTarget.src = `${import.meta.env.BASE_URL}img/avatar-placeholder.svg`
+              }}
+            />
             <div className="floating-badge">
               <span>1+ Years</span>
               <small>Experience</small>
