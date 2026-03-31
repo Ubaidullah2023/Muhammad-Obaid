@@ -62,19 +62,19 @@ const Contact = () => {
                 <FaEnvelope />
                 <div>
                   <span>Email</span>
-                  <p>ubaidullah8042003@mail.com</p>
+                  <p>ubaidullah8042003@gmail.com</p>
                 </div>
               </motion.a>
 
               <motion.a
-                href="tel:+1234567890"
+                href="tel:+923184841979"
                 className="contact-item"
                 whileHover={{ x: 10 }}
               >
                 <FaPhone />
                 <div>
                   <span>Phone</span>
-                  <p>Available on request</p>
+                  <p>+92 318 484 1979</p>
                 </div>
               </motion.a>
 

@@ -70,7 +70,7 @@ const Hero = () => {
 
           <motion.div className="hero-social" variants={itemVariants}>
             <motion.a
-              href="https://github.com"
+              href="https://github.com/Ubaidullah2023"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.2, rotate: 5 }}
@@ -79,7 +79,7 @@ const Hero = () => {
               <FaGithub />
             </motion.a>
             <motion.a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/ubaidullah8042003/"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.2, rotate: 5 }}
